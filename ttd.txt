@@ -1,0 +1,33 @@
+getTasks
+- selectedDate
+- taskTypeId
+
+addTask
+- name
+- taskTypeId
+- startTime
+- endTime
+- elapsedTime
+
+updateTask
+- name
+- taskTypeId
+- startTime
+- endTime
+- elapsedTime
+
+getTaskTypes
+- id
+- name
+
+// TODO: need to figure out how the mappings, pathvariables, and request body work
+// TODO: reduce size of parameter list (done)
+// TODO: read Spring Boot book on creating mappings (done)
+// TODO: request body?
+// Do AddTaskDetail and UpdateTaskDetail require a stereotype?
+// TODO: What should the return type be? How does the client know if what is returned is a success?
+// List; Use ResponseStatus
+// TODO: Are there GUIDs in Java? UUID
+// TODO: create task types from UI
+// TODO: Where do DTOs go? Are DTOs considered to be beans?
+// TODO: How do you format time in Java? How do you format duration in Java?
